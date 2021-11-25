@@ -1,0 +1,284 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    padding: 0px 30px 30px 30px;
+    background-color: seashell;
+}
+
+#header {
+    position: static;
+    width: 100vw;
+    font-size: 30px;
+}
+
+.navbarw {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    padding-right: 20px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    padding: 10px;
+    border-radius: 20px;
+    gap: 25px;
+    margin-left: 10vw;
+    height: 55vh;
+    justify-content: center;
+    font-size: 30px;
+    background-color: rgb(252, 240, 232, 0.5);
+}
+#form > label {
+    display: flex;
+
+}
+#form > label > span {
+    display: flex;
+    width: 200px;
+    width: calc(100% - 70px);
+}
+.input{
+    width: 50vw;
+}
+#message{
+    height: 70px;
+}
+#veryfirstimg {
+    display: flex;
+    position: relative;
+    max-width: 100%;
+    margin-top: 15px;
+    z-index: -1;
+    margin-top: 20px;
+}
+#vfid {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#bottom {
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+}
+#bottom2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.services {
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    font-size: 22px;
+    justify-content: center;
+    align-items: center;
+}
+#first {
+    flex: 1;
+}
+#second {
+    flex: 1;
+}
+#fourth {
+    flex: 1;
+}
+#fifth {
+    flex: 1;
+}
+
+#firstimg {
+    flex: 1;
+    max-width: 100%;
+}
+#secondimg {
+    flex: 1;
+    max-width: 100%;
+}
+/*#intro1{
+    flex: 1;
+    margin-bottom: 50px;
+    border: 1px black solid;
+    gap: 100px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    gap: 30px;
+
+}
+#intro2{
+    flex: 1;
+    margin-bottom: 50px;
+    border: 1px black solid;
+    text-align: center;
+    padding-right: 20px;
+    padding-left: 20px;
+
+}*/
+.servicesimgs {
+    width: 125px;
+    display: block;
+    margin: auto;
+}
+
+#firstimg {
+    margin-top: 0;
+}
+
+#intro2 > div > p {
+    padding-bottom: 20px;
+}
+/*#firstimg {
+    max-width: 100%;
+}
+#secondimg {
+    max-width: 100%;
+}*/
+#egobooster {
+    text-align: center;
+    padding: 50px;
+    font-size: 30px;
+}
+.introdivs {
+    margin: 20px;
+}
+@media (min-width: 640px) {
+    #bottom {
+        flex-direction: row;
+        font-size: 12px;
+    }
+    #bottom2 {
+        flex-direction: row;
+        font-size: 12px;
+    }
+}
+#top {
+    display: flex;
+}
+
+
+#intro {
+    display: flex;
+    flex-direction: row;
+}
+.servicesimg {
+    flex-shrink: 0;
+    min-height: 100%;
+    min-width: 100%;
+
+}
+#felso1 {
+    flex: 1;
+}
+#felso2 {
+    flex: 1;
+}
+#felso3 {
+    flex: 1;
+}
+#felso4 {
+    flex: 1;
+}
+
+.service {
+
+    text-align: center;
+    padding: 0px;
+    margin: 20px;
+    font-size: 22px;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: seashell;
+    position: sticky;
+    padding-bottom: 20px;
+}
+
+.topnav #myLinks {
+    display: none;
+}
+
+.topnav a {
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+}
+
+.topnav a.icon {
+    background: seashell;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.active {
+    background-color: seashell;
+    color: black;
+}
+
+#sfimg {
+    display: flex;
+    position: absolute;
+    width: 100vw;
+    margin-top: 15px;
+    z-index: -1;
+}
+
+button {
+    width: 300px;
+    align-self: center;
+    cursor: pointer;
+    background-color: seashell;
+    color: black;
+    height: 40px;
+    font-size: 20px;
+}
+button:hover {
+    background-color: tan;
+    
+}
+
+#felso1 {
+    background-color: rgb(173, 173, 173, 0.3);
+}
+#felso3 {
+    background-color: rgb(173, 173, 173, 0.3);
+}
+#felso1:hover {
+    background-color: rgb(182, 99, 60, 0.5);
+}
+#felso3:hover {
+    background-color: rgba(185, 216, 255, 0.37);
+}
+.services {
+    background-color: rgb(94, 94, 94, 0.2);
+}
+.services:hover {
+    background-color: rgba(0, 128, 128, 0.37);
+}
